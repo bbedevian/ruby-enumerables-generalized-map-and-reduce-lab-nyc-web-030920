@@ -2,7 +2,11 @@ def my_own_map(source)
   i = 0 
   result = []
   while i < source.length 
-  result << 
+  result << yield 
   i+=1 
-end 
+  end 
 result 
+end 
+
+my_own_map(source)
+{|n| n*-1} 
