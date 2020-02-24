@@ -7,5 +7,3 @@ def map(array)
   end 
 result 
 end 
-
-def 
