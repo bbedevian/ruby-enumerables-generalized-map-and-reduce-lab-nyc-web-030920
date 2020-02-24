@@ -8,4 +8,5 @@ def map(array)
 result 
 end 
 
-def reduce(array, )
+def reduce(array, sv=nil)
+  if sv
