@@ -1,12 +1,11 @@
-def my_own_map(source)
+def map(array)
   i = 0 
   result = []
   while i < source.length 
-  result << yield 
+  result << yield(array[i]) 
   i+=1 
   end 
 result 
 end 
 
-my_own_map(source)
 {|n| n*-1} 
